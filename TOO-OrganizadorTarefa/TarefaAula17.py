@@ -1,5 +1,6 @@
 from model.Tarefa import Tarefa
 from model.TarefaEscolar import TarefaEscolar
+from model.disciplina import Disciplina
 
 t1 = Tarefa("Aula TOO", "teste")
 print(t1.exibir_dados())
@@ -18,6 +19,5 @@ if(t2 == t3):
 else:
     print("Tarefas diferentes")
     
-t4 = TarefaEscolar("introducao Herança")
+t4 = TarefaEscolar("introducao Herança, polimorfismo", "POO", 5, "teste herança", "20-09-2025", "25-09-2025")
 print(t4)
-
